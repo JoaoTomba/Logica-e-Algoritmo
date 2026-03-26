@@ -9,16 +9,17 @@ inicio
    leia(in)
    escreva("Fim: ")
    leia (fm)
-   se (in<fm)entao
-      enquanto (in<=fm)faca
-         Escreval (in)
-         in <- in+1
-      FimEnquanto
-   FimSe
    se (in>fm)entao
       enquanto (in>=fm)faca
          Escreval (in)
          in <- in-1
       FimEnquanto
+   senao
+      se (in<fm)entao
+         enquanto (in<=fm)faca
+            Escreval (in)
+            in <- in+1
+         FimEnquanto
+      FimSe
    FimSe
 fimalgoritmo
