@@ -1,0 +1,13 @@
+algoritmo "VetorComeco"
+var
+   v:vetor [1..10] de inteiro
+   c:inteiro
+inicio
+   para c <- 1 ate 10 faca
+      escreva ("Digite o ",c,"o. valor: ")
+      leia (v[c])
+   fimpara
+   para c <- 1 ate 10 faca
+      escreva ("{", v[c], "}")
+   Fimpara
+fimalgoritmo
